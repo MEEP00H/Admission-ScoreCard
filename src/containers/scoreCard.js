@@ -25,7 +25,7 @@ export default class scoreCard extends Component {
         roundOpen : 5,
         roundOpenNow : [1,2,4],
         round : 4,
-        roundType : 'Addmission',
+        roundType : 'Admission',
         score : {
 
             yourScore : '23,453',
