@@ -1,0 +1,27 @@
+.yourScore{
+    float:right;
+    text-align:right;
+}
+.scoreIs{
+
+    width: 144px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #4a4a4a;
+}
+.score{
+    margin-top: -5px;
+    font-size: 42px;
+    color: #4a4a4a;
+}
+
+@media only screen and (max-width: 600px) {
+    .scoreIs{
+        font-size: 10px;
+    }
+    .score{
+        font-size: 30px;
+    }
+    
+}

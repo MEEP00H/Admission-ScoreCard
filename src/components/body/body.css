@@ -1,0 +1,66 @@
+
+.roundOpenNowText{
+    grid-area : rnt ;
+
+}
+.roundOpenNow{
+    grid-area : rn ;
+}
+.roundNumber{
+    grid-area: r;
+}
+.roundType{
+    grid-area: rt;
+    margin-left: 55%;
+}
+.achieveImage{
+    grid-area: ach; 
+    margin: 40% 0 0 15%;
+}
+.yourScore{
+    grid-area: ys;
+    margin-top: 7%;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-rows: 25px 50px 110px;
+    grid-template-columns: 100px auto auto ;
+    grid-template-areas: 
+      "rnt rn rn"
+      "r rt rt "
+      "ach ys ys"
+    
+}
+.body{
+    margin-top: 14px;
+}
+.roundOpenNow{
+
+    height: 21px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    color: #5f5f5f;
+}
+.underlineBody{
+    margin-top: 15px;
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+@media only screen and (max-width: 600px) {
+    .body{
+        margin-top: 10px;
+    }
+    .grid-wrapper {
+        grid-template-rows: 25px 50px 70px;
+        grid-template-columns: 80px auto auto ;
+    }
+    .achieveImage{
+        margin: 20% 0 0 15%;
+    }
+    .yourScore{
+        margin-top: 2%;
+    }
+}

@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px auto auto;
+}
+.underlineHeader{
+    margin-top: 15px;
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+@media only screen and (max-width: 600px) {
+    .underlineHeader{
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+}

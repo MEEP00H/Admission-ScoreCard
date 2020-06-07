@@ -1,0 +1,18 @@
+.round{
+
+    margin-top: 35px;
+    position: absolute;
+
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    color: #ff5a5a;
+}
+
+@media only screen and (max-width: 600px) {
+    .round{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    
+}
